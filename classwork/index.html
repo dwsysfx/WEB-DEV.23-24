@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Web Dev</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Practice HTML Structure - 9/15/23</h1>
+        <hr>
+
+        <p><b>HTML</b> stands for <b>H</b>yperText <b>M</b>arkup <b>L</b>anguage.</p>
+        <p>HTML provides structure to the content appearing on a website, such as <i>assets, text,</i> or <i>videos</i>.</p>
+        <p><i>Remember:</i> <b><u>HTML is not a programming language.</u></b></p>
+        <h3>This heading 3 is<br>split in half.</h3>
+
+        <hr>
+        <h1>Lists, Lists, and Lists - 9/18/23</h1>
+        <hr>
+
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <h2>Description List</h2>
+        <dl>
+            <dt>Inline elements</dt>
+                <dd>Elements that appear on the same line.</dd>
+            <dt>Block elements</dt>
+                <dd>Elements that appear on the next line.</dd>
+        </dl>
+
+        <hr>
+        <h1>Nested Lists - 9/19/23</h1>
+        <hr>
+
+        <h2>Nested List</h2>
+        <ul>
+            <li><a href="https://bakerpedia.com/processes/cookies/" target="_blank" >Cookies</a></li>
+            <li>
+                <a href="https://candyusa.com/story-of-chocolate/fun-facts-about-chocolate/" target="_blank">Chocolate</a>
+                <ol>
+                    <li>White</li>
+                    <li>Dark</li>
+                </ol>
+            </li>
+            <li><a href="https://www.nationalpeanutboard.org/news/fun-facts.htm" target="_blank">Peanut Butter</a></li>
+        </ul>
+
+        <ol>
+            <li>
+                Monday
+                <ul>
+                    <li>Clean room</li>
+                    <li>Do homework</li>
+                </ul>
+            </li>
+
+            <li>
+                Tuesday
+                <ul>
+                    <li>Practice piano</li>
+                    <li>Study for test</li>
+                </ul>
+            </li>
+        </ol>
+
+        <hr>
+        <h1>More lists, yay!</h1>
+        <hr>
+
+        <h2>Favorite Artists</h2>
+        <ul>
+            <li>
+                <img src="./assets/kendrick_lamar.jpg" alt="kendrick lamar image">
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Kendrick_Lamar" title="Kendrick Lamar wikipedia" target="_blank">Kendrick Lamar</a></li>
+            <li>
+                <img src="./assets/tyler_the_creator.jpg" alt="tyler the creator image">
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Tyler,_the_Creator" title="Tyler, the Creator wikipedia" target="_blank">Tyler, The Creator</a></li>
+            <li>
+                <img src="./assets/frank_ocean.jpg" alt="frank ocean image">
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Frank_Ocean" title="Frank Ocean wikipedia" target="_blank">Frank Ocean</a></li>
+            <li>
+                <img src="./assets/kanye_west.jpg" alt="kanye west image">
+            </li>
+            <li><a href="https://en.wikipedia.org/wiki/Kanye_West" title="Kanye West wikipedia" target="_blank">Kanye West</a></li>
+        </ul>
+
+        <hr>
+        <h1>Image Review - 9/25/23</h1>
+        <hr>
+
+        <img src="./assets/lanetech.jpeg" alt="lane tech photo">
+
+        <hr>
+        <h1>Image and Audio - 9/28/23</h1>
+        <hr>
+
+        <h2>Video</h2>
+        <video width="320" height="240" controls autoplay muted
+            src="assets/my_video.MOV">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="assets/my_sound.wav" type="audio/WAV">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <hr>
+        <h1>Tables</h1>
+        <hr>
+
+        <h2>Table 1</h2>
+        <table border="1">
+            <tr>
+                <th>FName</th>
+                <th>LName</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Smith</td>
+                <td>8th</td>
+            </tr>
+            <tr>
+                <td>Luisa</td>
+                <td>Obrador</td>
+                <td>9th</td>
+            </tr>
+            <tr>
+                <td>Darilo</td>
+                <td>Carrera</td>
+                <td>10th</td>
+            </tr>
+        </table>
+
+        <h2>Table 2</h2>
+        <table border="1">
+            <tr>
+                <th colspan="2">Name</th>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+        </table>
+
+        <h2>Table 3</h2>
+        <table border="1">
+            <tr>
+                <th rowspan="3">April</th>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+        </table>
+
+        <h2>Table 4</h2>
+        <table border="1">
+            <tr>
+                <th colspan="3">2023</th>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <th colspan="2" rowspan="2">FIESTA</th>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+            </tr>
+            <tr>
+                <td>Lane</td>
+                <td>Lane</td>
+                <td>Lane</td>
+            </tr>
+        </table>
+
+        <hr>
+        <h1>Table Review - 10/2/23</h1>
+        <hr>
+
+        <table border=1>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+            <tr>
+                <td rowspan="4">You can span down.</td>
+                <td colspan="3">You can span across.</td>
+            </tr>
+            <tr>
+                <td colspan="2">It's like a puzzle.</td>
+                <td rowspan="3">Over here.</td>
+            </tr>
+            <tr>
+                <td rowspan="2">This way.</td>
+                <td>That way.</td>
+            </tr>
+            <tr>
+                <td>Where am I?</td>
+            </tr>
+        </table>
+    </body>
+</html>
