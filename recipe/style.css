@@ -1,0 +1,69 @@
+body {
+    background: lightgreen;
+    max-width:85%; 
+    margin:auto;
+}
+
+h1 {
+    margin-bottom: -3vh;
+}
+
+header {
+    background: lightblue;
+    padding: 20px; 
+}
+
+nav {
+    background: darkcyan;
+    padding: 2px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 20px;
+    background: lightblue;
+}
+
+main img {
+    width: 30%;
+    height: auto;
+}
+
+aside {
+    background: lightblue;
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background: lightcoral;
+}
+
+#ingredients {
+    padding-right: 70px;
+    border-right: 1px solid white;
+}
